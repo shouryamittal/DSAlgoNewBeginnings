@@ -5,6 +5,11 @@ package medium;
  */
 public class MoveEleToLast {
 
+    /**
+     * @param arr
+     * @param toMove
+     * @return
+     */
     //method: Use the same 2 pointer approach, point i to first and j to last.
     private int[] moveEleToLast(int[] arr, int toMove) {
         int i = 0, j = arr.length - 1;
